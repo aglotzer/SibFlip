@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 1rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+label {
+	margin-bottom: 0.5rem;
+}
+
+input[type="file"] {
+	margin-bottom: 1rem;
+}
+
+#upload-button {
+	background-color: #333;
+	color: white;
+	padding: 0.5rem;
+	border: none;
+	cursor: pointer;
+}
+
+#result-container {
+	display: none;
+}
+
+#coin-image {
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
